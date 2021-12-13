@@ -59,9 +59,15 @@
   }
 
   &-header {
+    background-color: rgb(122, 121, 121, 0.5);
+    border-radius: 25px;
+    height: 180px;
+    margin: 5px;
+    padding: 5px;
+
     &-title {
       font-size: 70px;
-      color: #fff;
+      color: rgb(255, 255, 255);
       font-weight: 700;
       line-height: 70px;
       white-space: nowrap;

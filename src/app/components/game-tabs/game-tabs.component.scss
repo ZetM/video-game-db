@@ -4,6 +4,7 @@
     color: white;
     text-align: left;
     padding: 10px;
+    border-radius: 15px;
 
     &-par {
       padding: 20px 20px 0 20px;
@@ -31,9 +32,11 @@
   &-votes {
     &-up {
       color: green;
+      margin-left: 20px;
     }
     &-down {
       color: red;
+      margin-left: 10px;
     }
     &-count {
       margin-left: 5px;

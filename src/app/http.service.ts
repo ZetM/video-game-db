@@ -19,6 +19,7 @@ export class HttpService {
 
     if (search){
       params = new HttpParams().set('ordering',ordering).set('search', search);
+      console.log(search)
     }
 
     return this.http.get<APIResponse<Game>>(`${env.BASE_URL}/games`, {
